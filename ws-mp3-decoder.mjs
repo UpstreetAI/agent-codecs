@@ -1,6 +1,6 @@
 import { resample } from './resample.mjs';
 import { formatSamples } from './format.mjs';
-import { QueueManager } from 'queue-manager';
+import { QueueManager } from 'queue-manager-async';
 
 export const makeMp3Decoder = (MPEGDecoder) =>
 class WsMp3Decoder extends EventTarget {

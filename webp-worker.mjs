@@ -1,6 +1,6 @@
 import webp from 'webp-wasm';
 import * as u8 from 'u8-encoder';
-import { QueueManager } from 'queue-manager';
+import { QueueManager } from 'queue-manager-async';
 
 const encodeWebp = async (imageData, opts) => {
   const outputBuffer = await webp.encode(imageData, opts);
