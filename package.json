@@ -1,6 +1,6 @@
 {
   "name": "agent-codecs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "dependencies": {
     "queue-manager-async": "^0.0.1",
