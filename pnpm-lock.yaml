@@ -1,0 +1,30 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      queue-manager-async:
+        specifier: ^0.0.1
+        version: 0.0.1
+      u8-encoder:
+        specifier: ^0.0.5
+        version: 0.0.5
+
+packages:
+
+  queue-manager-async@0.0.1:
+    resolution: {integrity: sha512-vyc19znNJbJSWcomO7VG0G+AbSBgk3wmhBbKKSHC0X12L/ceIDkvyMPcW+sBemkXe6iTHXLIfRbnAuUYRnNStg==}
+
+  u8-encoder@0.0.5:
+    resolution: {integrity: sha512-AOwAoUlu8DiT0AwNeRSt5oT+Dsz6Iy172FUD+Jvvb7ZRHtGWO6+DShGd0if8u0y/QQWwUrW1Mixo/vA/Qa5IsQ==}
+
+snapshots:
+
+  queue-manager-async@0.0.1: {}
+
+  u8-encoder@0.0.5: {}
