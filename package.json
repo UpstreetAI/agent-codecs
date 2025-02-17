@@ -1,5 +1,6 @@
 {
-  "name": "codecs",
+  "name": "agent-codecs",
+  "version": "0.0.1",
   "type": "module",
   "dependencies": {
     "lamejs": "file:./packages/lamejs",
