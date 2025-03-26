@@ -14,17 +14,38 @@ importers:
       u8-encoder:
         specifier: ^0.0.5
         version: 0.0.5
+      wasm-audio-decoders-common:
+        specifier: ^0.0.1
+        version: 0.0.1
 
 packages:
+
+  '@eshaz/web-worker@1.2.2':
+    resolution: {integrity: sha512-WxXiHFmD9u/owrzempiDlBB1ZYqiLnm9s6aPc8AlFQalq2tKmqdmMr9GXOupDgzXtqnBipj8Un0gkIm7Sjf8mw==}
 
   queue-manager-async@0.0.1:
     resolution: {integrity: sha512-vyc19znNJbJSWcomO7VG0G+AbSBgk3wmhBbKKSHC0X12L/ceIDkvyMPcW+sBemkXe6iTHXLIfRbnAuUYRnNStg==}
 
+  simple-yenc@1.0.4:
+    resolution: {integrity: sha512-5gvxpSd79e9a3V4QDYUqnqxeD4HGlhCakVpb6gMnDD7lexJggSBJRBO5h52y/iJrdXRilX9UCuDaIJhSWm5OWw==}
+
   u8-encoder@0.0.5:
     resolution: {integrity: sha512-AOwAoUlu8DiT0AwNeRSt5oT+Dsz6Iy172FUD+Jvvb7ZRHtGWO6+DShGd0if8u0y/QQWwUrW1Mixo/vA/Qa5IsQ==}
 
+  wasm-audio-decoders-common@0.0.1:
+    resolution: {integrity: sha512-9D5OBn2iXDyM7JIDi3FRtmtyJi5j5xomxwEXQO5MCn/7b/HAlkhk2jE2J4YV4gVQRpakBjzL7nstUBtA/KfGYA==}
+
 snapshots:
+
+  '@eshaz/web-worker@1.2.2': {}
 
   queue-manager-async@0.0.1: {}
 
+  simple-yenc@1.0.4: {}
+
   u8-encoder@0.0.5: {}
+
+  wasm-audio-decoders-common@0.0.1:
+    dependencies:
+      '@eshaz/web-worker': 1.2.2
+      simple-yenc: 1.0.4

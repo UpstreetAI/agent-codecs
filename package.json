@@ -4,6 +4,7 @@
   "type": "module",
   "dependencies": {
     "queue-manager-async": "^0.0.1",
-    "u8-encoder": "^0.0.5"
+    "u8-encoder": "^0.0.5",
+    "wasm-audio-decoders-common": "^0.0.1"
   }
 }
