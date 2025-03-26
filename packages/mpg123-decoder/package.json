@@ -51,8 +51,5 @@
   "funding": {
     "type": "individual",
     "url": "https://github.com/sponsors/eshaz"
-  },
-  "dependencies": {
-    "@wasm-audio-decoders/common": "file:./packages/wasm-audio-decoders-common"
   }
 }
